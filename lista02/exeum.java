@@ -2,7 +2,7 @@ package lista02; // Resolve o primeiro erro
 
 import java.util.Scanner; // Resolve o segundo erro
 
-public class exeum {
+public class Exeum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
