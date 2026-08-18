@@ -2,7 +2,7 @@ package lista02;
 
 import java.util.Scanner;
 
-public class Exedoze {
+public class Exercicio12 {
 
     public static int menorInteiro(double x) {
         return (int) Math.ceil(x);

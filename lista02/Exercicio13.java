@@ -2,22 +2,18 @@ package lista02;
 
 import java.util.Scanner;
 
-public class Exeoito {
+public class Exercicio13 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite uma frase: ");
         String frase = entrada.nextLine();
 
-        String atual = frase;
+        String resultado = frase.trim().replaceAll("\\s+", " ");
 
-        do {
-            System.out.println(atual);
-            atual = atual.substring(1) + atual.charAt(0);
-        } while (!atual.equals(frase));
-
-        System.out.println(frase);
-
+        System.out.println("Frase original: [" + frase + "]");
+        System.out.println("Frase tratada: [" + resultado + "]");
         entrada.close();
+
     }
 }

@@ -2,7 +2,7 @@ package lista02;
 
 import java.util.Scanner;
 
-public class Exeonze {
+public class Exercicio11 {
 
     public static double calcularDiagonal(double base, double altura) {
         return Math.sqrt(base * base + altura * altura);

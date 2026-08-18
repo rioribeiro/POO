@@ -2,7 +2,7 @@ package lista02;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exetres {
+public class Exercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite quatro valores inteiros: ");
